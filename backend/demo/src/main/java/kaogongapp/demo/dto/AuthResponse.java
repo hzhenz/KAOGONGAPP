@@ -1,0 +1,11 @@
+package kaogongapp.demo.dto;
+
+public record AuthResponse(
+        String token,
+        String tokenType,
+        long expiresIn,
+        String username,
+        String displayName,
+        String role
+) {
+}
